@@ -20,16 +20,10 @@ input {
 .menu {
   margin: 0 auto;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin-left: -90px;
   margin-top: 500px;
-}
-
-@media (min-width: 767px) {
-  .menu {
-    margin-top: 0px;
-  }
 }
 
 .btn {
