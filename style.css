@@ -188,6 +188,6 @@ input#toggle:checked~#show-menu .btn .closeBtn {
   align-items: center;
 }
 
-a:visited {
+a, a:visited {
   color: #fff !important;
 }
