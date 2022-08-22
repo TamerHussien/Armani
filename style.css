@@ -20,12 +20,16 @@ input {
 .menu {
   margin: 0 auto;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   margin-left: -90px;
-  margin-top: 500px;
 }
 
+@media (min-width: 767px) and (orientation: landscape) {
+  .menu {
+    margin-top: 500px;
+  }
+}
 .btn {
   width: 200px;
   height: 200px;
