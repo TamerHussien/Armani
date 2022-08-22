@@ -61,8 +61,6 @@ input {
 
 .btn:not(:first-child) {
   opacity: 0;
-  z-index: -2;
-
   -webkit-transition: all 0.6s cubic-bezier(.87, -.41, .19, 1.44);
   transition: all 0.6s cubic-bezier(.87, -.41, .19, 1.44);
 }
