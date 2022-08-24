@@ -1,7 +1,7 @@
 body {
   background: #212121;
   color: #404040;
-  height: 2000px;
+  height: fit-content;
 }
 
 input {
@@ -65,6 +65,9 @@ input {
   transition: all 0.6s cubic-bezier(.87, -.41, .19, 1.44);
 }
 
+.btn:first-child {
+  z-index: 1;
+}
 .btn:nth-child(2) {
   top: 0px;
   -webkit-transition-delay: 0s;
@@ -192,4 +195,72 @@ input#toggle:checked~#show-menu .btn .closeBtn {
 
 a, a:visited {
   color: #fff !important;
+}
+
+.map{
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 767px) and (orientation: landscape) {
+  .map {
+    margin-top: 1400px;
+  }
+}
+
+.about {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about h2 {
+    font-weight: normal;
+    font-size: 40px;
+    position: absolute;
+    margin-bottom: 70px;
+    margin-left: 120px;
+    text-transform: uppercase;
+}
+
+.about h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color: #ceb979;;
+  bottom: -30px;
+  width: 120px;
+}
+.about h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #ceb979;
+  bottom: -38px;
+  background-color: white;
+}
+
+.about p {
+  width: 550px;
+  margin-top: 150px;
+  max-width: 100%;
+  line-height: 2.5;
+  color: #777;
+}
+
+@media (min-width: 767px) and (orientation: landscape) {
+  .about {
+    margin-top: 880px;
+  }
 }
