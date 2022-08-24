@@ -199,7 +199,7 @@ a, a:visited {
 
 .map{
   position: absolute;
-  top: 110%;
+  top: 115%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -214,7 +214,7 @@ a, a:visited {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 75%;
+  top: 80%;
   left: 50%;
   transform: translateX(-50%);
 }
