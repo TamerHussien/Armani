@@ -268,7 +268,7 @@ a, a:visited {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 140%;
+  top: 145%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
