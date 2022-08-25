@@ -264,3 +264,59 @@ a, a:visited {
     margin-top: 880px;
   }
 }
+.footer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.footer h2{
+    font-weight: normal;
+    position: absolute;
+    font-size: 40px;
+    margin-bottom: 70px;
+    margin-left: 190px;
+    text-transform: uppercase;
+}
+
+.footer h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color: #ceb979;;
+  bottom: -30px;
+  width: 120px;
+}
+
+.footer h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #ceb979;
+  bottom: -38px;
+  background-color: white;
+}
+
+.footer p {
+  width: 550px;
+  margin-top: 150px;
+  max-width: 100%;
+  line-height: 2.5;
+  color: #777;
+}
+
+@media (min-width: 767px) and (orientation: landscape) {
+  .footer {
+    margin-top: 1760px;
+  }
+}
