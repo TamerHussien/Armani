@@ -206,7 +206,7 @@ a, a:visited {
 
 @media (min-width: 767px) and (orientation: landscape) {
   .map {
-    margin-top: 1430px;
+    margin-top: 1450px;
   }
 }
 
@@ -261,7 +261,7 @@ a, a:visited {
 
 @media (min-width: 767px) and (orientation: landscape) {
   .about {
-    margin-top: 910px;
+    margin-top: 930px;
   }
 }
 .footer {
@@ -317,7 +317,7 @@ a, a:visited {
 
 @media (min-width: 767px) and (orientation: landscape) {
   .footer {
-    margin-top: 1810px;
+    margin-top: 1830px;
   }
 }
 
@@ -325,7 +325,7 @@ a, a:visited {
   position: absolute;
   background-color: #ceb979;
   left: 50%;
-  margin-top: 390px;
+  margin-top: 400px;
   transform: translateX(-50%);
   font-size: 25px;
 }
