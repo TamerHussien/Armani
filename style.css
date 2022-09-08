@@ -325,12 +325,7 @@ a, a:visited {
   position: absolute;
   background-color: #ceb979;
   left: 50%;
-  top: 22%;
+  margin-top: 390px;
   transform: translateX(-50%);
   font-size: 25px;
-}
-@media (min-width: 767px) and (orientation: landscape) {
-  .stars {
-    margin-top: 300px;
-  }
 }
