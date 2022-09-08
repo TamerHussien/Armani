@@ -27,7 +27,7 @@ input {
 
 @media (min-width: 767px) and (orientation: landscape) {
   .menu {
-    margin-top: 500px;
+    margin-top: 510px;
   }
 }
 .btn {
@@ -318,5 +318,19 @@ a, a:visited {
 @media (min-width: 767px) and (orientation: landscape) {
   .footer {
     margin-top: 1780px;
+  }
+}
+
+.stars{
+  position: absolute;
+  background-color: #ceb979;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  font-size: 25px;
+}
+@media (min-width: 767px) and (orientation: landscape) {
+  .stars {
+    top: 85%;
   }
 }
