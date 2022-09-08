@@ -331,6 +331,6 @@ a, a:visited {
 }
 @media (min-width: 767px) and (orientation: landscape) {
   .stars {
-    top: 85%;
+    margin-top: 293px;
   }
 }
